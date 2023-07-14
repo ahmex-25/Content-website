@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+}
+:root {
+    --primary: #6222CC;
+    --secondary: #FBA504;
+    --light: #F6F4F9;
+    --dark: #04000B;
+}
+
+.container{
+    background-color: #6222CC;
+    padding: 0px 17.2px 15px 1px;
+    
+    width: 84%;
+    height: 743.0999999999999px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.right_logo{
+    position: relative;
+    top: 4px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.centerDivv {
+    position: relative;
+    top: -29px;
+    font-size: 21px;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+.centerDivv a{
+    margin: 10px;
+    text-decoration: none;
+    color: var(--light) !important;
+    
+
+}
+.right_logo h1{
+    left: 2%;
+    margin: 7px;
+    position: relative;
+    top: 24px;
+    color: var(--light) !important;
+
+}
+
+.button_get_started {
+    position: relative;
+    left: 91%;
+    top: -76px;
+    padding: 14px;
+    border-radius: 7px;
+    border: none;
+    color: #FBA504;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    background-color: var(--light) !important;
+
+
+    
+}
+hr {
+    border-top: 2px solid  var(--light) !important;
+    border-color: rgb(226, 226, 226);
+    width: 101.2%;
+    position: relative;
+    top: -54px;
+    right: 1px;
+}
+
+.ux_image_hero{
+    position: relative;
+    left: 59%;
+    top: -26px;
+    max-width: 524px;
+    height: auto;
+}
+
+
+.PostIntro p{
+
+    color: var(--light) !important;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    top: 168px;
+    left: 109px;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+.PostIntro h1
+{
+    color: var(--light) !important;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    top: 147px;
+    left: 104px;
+}
+
+
+.read_more ,
+.contact_us
+{
+    background-color: #FBA504;
+    padding: 15px;
+    border: none;
+    position: relative;
+    right: 31.4%;
+    bottom: 121px;
+    border-radius: 10px 0px 10px 0px;
+    font-family: 'Sans Serif',sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: var(--light) !important;
+
+}
+
+.PostIntro 
+a{
+    text-decoration: none;
+    color: var(--light) !important;
+
+
+}
+.PostIntro
+span{
+    color: rgb(0, 255, 34);
+}
+
+
+@media (max-width:1444px) and (max-width:1320px){
+    .ux_image_hero{
+        position: relative;
+        left: 59%;
+        top: -26px;
+        max-width: 487px;
+        height: auto;
+    }
+    
+
+}
+
+@media (max-width:1473px)
+{
+    .ux_image_hero{
+        position: relative;
+        left: 55%;
+        top: -53px;
+        max-width: 479px;
+        height: auto;
+    }
+    .read_more,
+    .contact_us {
+        bottom: 74px;
+        right: 453px;
+    }
+    .PostIntro h1{
+        position: relative;
+        top: 147px;
+        left: 29px;
+    }
+    .PostIntro p {
+        position: relative;
+        top: 168px;
+        left: 32px;
+    }
+}
+
+@media (max-width:1217px) {
+
+    .ux_image_hero{
+        position: relative;
+        left: 55%;
+        top: -53px;
+        max-width: 479px;
+        height: auto;
+    }
+    .read_more,
+    .contact_us {
+        bottom: 74px;
+        right: 440px;
+    }
+    .PostIntro h1{
+        position: relative;
+        top: 147px;
+        left: 29px;
+    }
+    .PostIntro p {
+        position: relative;
+        top: 168px;
+        left: 32px;
+    }
+    .button_get_started {
+        position: relative;
+        left: 89%;
+
+    }
+    .ux_image_hero{
+        position: relative;
+        left: 55%;
+        top: -53px;
+        max-width: 459px;
+        height: auto;
+    }
+}
